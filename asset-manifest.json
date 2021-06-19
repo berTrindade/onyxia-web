@@ -2,7 +2,7 @@
   "files": {
     "0.a72293fd.iframe.bundle.js": "./0.a72293fd.iframe.bundle.js",
     "main.css": "./static/css/main.75332d67.chunk.css",
-    "main.js": "./main.6f911a19.iframe.bundle.js",
+    "main.js": "./main.a98dc352.iframe.bundle.js",
     "main.css.map": "./static/css/main.75332d67.chunk.css.map",
     "runtime~main.js": "./runtime~main.47080d85.iframe.bundle.js",
     "vendors~main.js": "./vendors~main.d659984e.iframe.bundle.js",
@@ -55,7 +55,7 @@
     "static/media/Secret.f22ac743.svg": "./static/media/Secret.f22ac743.svg",
     "static/media/Secrets.9a3a9c33.svg": "./static/media/Secrets.9a3a9c33.svg",
     "static/media/ServiceNotFound.svg": "./static/media/ServiceNotFound.b0825094.svg",
-    "static/media/Services.759f6aab.svg": "./static/media/Services.759f6aab.svg",
+    "static/media/Services.0a9ebf1d.svg": "./static/media/Services.0a9ebf1d.svg",
     "static/media/Tour.7b2f3d65.svg": "./static/media/Tour.7b2f3d65.svg",
     "static/media/Trainings2.dffb926f.svg": "./static/media/Trainings2.dffb926f.svg",
     "static/media/jsoneditor.css": "./static/media/jsoneditor-icons.15f2789d.svg",
@@ -68,6 +68,6 @@
     "runtime~main.47080d85.iframe.bundle.js",
     "vendors~main.d659984e.iframe.bundle.js",
     "static/css/main.75332d67.chunk.css",
-    "main.6f911a19.iframe.bundle.js"
+    "main.a98dc352.iframe.bundle.js"
   ]
 }
