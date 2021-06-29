@@ -2,11 +2,11 @@
   "files": {
     "0.5696da00.iframe.bundle.js": "./0.5696da00.iframe.bundle.js",
     "main.css": "./static/css/main.75332d67.chunk.css",
-    "main.js": "./main.0a0f57cc.iframe.bundle.js",
+    "main.js": "./main.9757a094.iframe.bundle.js",
     "main.css.map": "./static/css/main.75332d67.chunk.css.map",
     "runtime~main.js": "./runtime~main.4352a02c.iframe.bundle.js",
-    "vendors~main.js": "./vendors~main.222d1609.iframe.bundle.js",
-    "vendors~main.js.map": "./vendors~main.222d1609.iframe.bundle.js.map",
+    "vendors~main.js": "./vendors~main.110831f8.iframe.bundle.js",
+    "vendors~main.js.map": "./vendors~main.110831f8.iframe.bundle.js.map",
     "4.a9624eba.iframe.bundle.js": "./4.a9624eba.iframe.bundle.js",
     "4.a9624eba.iframe.bundle.js.map": "./4.a9624eba.iframe.bundle.js.map",
     "5.f6d51eb8.iframe.bundle.js": "./5.f6d51eb8.iframe.bundle.js",
@@ -64,12 +64,12 @@
     "static/media/nouveau-service.scss": "./static/media/monkey.b2684cbd.svg",
     "static/media/singlePackage.9d6ebbbb.svg": "./static/media/singlePackage.9d6ebbbb.svg",
     "static/media/fonts.scss": "./static/media/worksans-semibold-webfont.3d45de00.woff2",
-    "vendors~main.222d1609.iframe.bundle.js.LICENSE.txt": "./vendors~main.222d1609.iframe.bundle.js.LICENSE.txt"
+    "vendors~main.110831f8.iframe.bundle.js.LICENSE.txt": "./vendors~main.110831f8.iframe.bundle.js.LICENSE.txt"
   },
   "entrypoints": [
     "runtime~main.4352a02c.iframe.bundle.js",
-    "vendors~main.222d1609.iframe.bundle.js",
+    "vendors~main.110831f8.iframe.bundle.js",
     "static/css/main.75332d67.chunk.css",
-    "main.0a0f57cc.iframe.bundle.js"
+    "main.9757a094.iframe.bundle.js"
   ]
 }
