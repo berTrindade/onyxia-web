@@ -5,8 +5,8 @@
     "main.js": "./main.0eb11fcf.iframe.bundle.js",
     "main.css.map": "./static/css/main.75332d67.chunk.css.map",
     "runtime~main.js": "./runtime~main.1da51af9.iframe.bundle.js",
-    "vendors~main.js": "./vendors~main.81e5b6b5.iframe.bundle.js",
-    "vendors~main.js.map": "./vendors~main.81e5b6b5.iframe.bundle.js.map",
+    "vendors~main.js": "./vendors~main.4a5fdba4.iframe.bundle.js",
+    "vendors~main.js.map": "./vendors~main.4a5fdba4.iframe.bundle.js.map",
     "4.9a892043.iframe.bundle.js": "./4.9a892043.iframe.bundle.js",
     "4.9a892043.iframe.bundle.js.map": "./4.9a892043.iframe.bundle.js.map",
     "5.95bfebc3.iframe.bundle.js": "./5.95bfebc3.iframe.bundle.js",
@@ -64,11 +64,11 @@
     "static/media/nouveau-service.scss": "./static/media/monkey.b2684cbd.svg",
     "static/media/singlePackage.9d6ebbbb.svg": "./static/media/singlePackage.9d6ebbbb.svg",
     "static/media/fonts.scss": "./static/media/worksans-semibold-webfont.3d45de00.woff2",
-    "vendors~main.81e5b6b5.iframe.bundle.js.LICENSE.txt": "./vendors~main.81e5b6b5.iframe.bundle.js.LICENSE.txt"
+    "vendors~main.4a5fdba4.iframe.bundle.js.LICENSE.txt": "./vendors~main.4a5fdba4.iframe.bundle.js.LICENSE.txt"
   },
   "entrypoints": [
     "runtime~main.1da51af9.iframe.bundle.js",
-    "vendors~main.81e5b6b5.iframe.bundle.js",
+    "vendors~main.4a5fdba4.iframe.bundle.js",
     "static/css/main.75332d67.chunk.css",
     "main.0eb11fcf.iframe.bundle.js"
   ]
