@@ -2,13 +2,13 @@
   "files": {
     "0.feae852e.iframe.bundle.js": "./0.feae852e.iframe.bundle.js",
     "main.css": "./static/css/main.5c78070f.chunk.css",
-    "main.js": "./main.9634267c.iframe.bundle.js",
+    "main.js": "./main.2442d45d.iframe.bundle.js",
     "main.css.map": "./static/css/main.5c78070f.chunk.css.map",
     "runtime~main.js": "./runtime~main.81413df9.iframe.bundle.js",
     "vendors~main.css": "./static/css/vendors~main.46fc10f7.chunk.css",
-    "vendors~main.js": "./vendors~main.49ab5196.iframe.bundle.js",
+    "vendors~main.js": "./vendors~main.7cfc82d1.iframe.bundle.js",
     "vendors~main.css.map": "./static/css/vendors~main.46fc10f7.chunk.css.map",
-    "vendors~main.js.map": "./vendors~main.49ab5196.iframe.bundle.js.map",
+    "vendors~main.js.map": "./vendors~main.7cfc82d1.iframe.bundle.js.map",
     "4.4d3141d9.iframe.bundle.js": "./4.4d3141d9.iframe.bundle.js",
     "4.4d3141d9.iframe.bundle.js.map": "./4.4d3141d9.iframe.bundle.js.map",
     "5.162b992f.iframe.bundle.js": "./5.162b992f.iframe.bundle.js",
@@ -66,13 +66,13 @@
     "static/media/nouveau-service.scss": "./static/media/monkey.b2684cbd.svg",
     "static/media/singlePackage.9d6ebbbb.svg": "./static/media/singlePackage.9d6ebbbb.svg",
     "static/media/work-sans.css": "./static/media/worksans-semibold-webfont.3d45de00.woff2",
-    "vendors~main.49ab5196.iframe.bundle.js.LICENSE.txt": "./vendors~main.49ab5196.iframe.bundle.js.LICENSE.txt"
+    "vendors~main.7cfc82d1.iframe.bundle.js.LICENSE.txt": "./vendors~main.7cfc82d1.iframe.bundle.js.LICENSE.txt"
   },
   "entrypoints": [
     "runtime~main.81413df9.iframe.bundle.js",
     "static/css/vendors~main.46fc10f7.chunk.css",
-    "vendors~main.49ab5196.iframe.bundle.js",
+    "vendors~main.7cfc82d1.iframe.bundle.js",
     "static/css/main.5c78070f.chunk.css",
-    "main.9634267c.iframe.bundle.js"
+    "main.2442d45d.iframe.bundle.js"
   ]
 }
