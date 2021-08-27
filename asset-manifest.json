@@ -2,7 +2,7 @@
   "files": {
     "0.473db977.iframe.bundle.js": "./0.473db977.iframe.bundle.js",
     "main.css": "./static/css/main.581e6f1c.chunk.css",
-    "main.js": "./main.1341e103.iframe.bundle.js",
+    "main.js": "./main.eb339788.iframe.bundle.js",
     "main.css.map": "./static/css/main.581e6f1c.chunk.css.map",
     "runtime~main.js": "./runtime~main.c3b4bed1.iframe.bundle.js",
     "vendors~main.css": "./static/css/vendors~main.46fc10f7.chunk.css",
@@ -47,6 +47,7 @@
     "static/media/ServiceNotFound.svg": "./static/media/ServiceNotFound.b0825094.svg",
     "static/media/Services.0a9ebf1d.svg": "./static/media/Services.0a9ebf1d.svg",
     "static/media/Tour.7b2f3d65.svg": "./static/media/Tour.7b2f3d65.svg",
+    "static/media/Trainings2.dffb926f.svg": "./static/media/Trainings2.dffb926f.svg",
     "static/media/agentConnectDark.399ba79e.svg": "./static/media/agentConnectDark.399ba79e.svg",
     "static/media/agentConnectLight.be7471b0.svg": "./static/media/agentConnectLight.be7471b0.svg",
     "static/media/jsoneditor.css": "./static/media/jsoneditor-icons.15f2789d.svg",
@@ -60,6 +61,6 @@
     "static/css/vendors~main.46fc10f7.chunk.css",
     "vendors~main.6f0473b2.iframe.bundle.js",
     "static/css/main.581e6f1c.chunk.css",
-    "main.1341e103.iframe.bundle.js"
+    "main.eb339788.iframe.bundle.js"
   ]
 }
