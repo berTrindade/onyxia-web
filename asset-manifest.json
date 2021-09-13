@@ -2,13 +2,13 @@
   "files": {
     "0.60605217.iframe.bundle.js": "./0.60605217.iframe.bundle.js",
     "main.css": "./static/css/main.581e6f1c.chunk.css",
-    "main.js": "./main.e42ea750.iframe.bundle.js",
+    "main.js": "./main.f4533eb4.iframe.bundle.js",
     "main.css.map": "./static/css/main.581e6f1c.chunk.css.map",
     "runtime~main.js": "./runtime~main.83eddbae.iframe.bundle.js",
     "vendors~main.css": "./static/css/vendors~main.46fc10f7.chunk.css",
-    "vendors~main.js": "./vendors~main.3f678876.iframe.bundle.js",
+    "vendors~main.js": "./vendors~main.fda279ed.iframe.bundle.js",
     "vendors~main.css.map": "./static/css/vendors~main.46fc10f7.chunk.css.map",
-    "vendors~main.js.map": "./vendors~main.3f678876.iframe.bundle.js.map",
+    "vendors~main.js.map": "./vendors~main.fda279ed.iframe.bundle.js.map",
     "4.5569291b.iframe.bundle.js": "./4.5569291b.iframe.bundle.js",
     "4.5569291b.iframe.bundle.js.map": "./4.5569291b.iframe.bundle.js.map",
     "5.a48e97fb.iframe.bundle.js": "./5.a48e97fb.iframe.bundle.js",
@@ -54,13 +54,13 @@
     "static/media/nouveau-service.scss": "./static/media/monkey.b2684cbd.svg",
     "static/media/singlePackage.9d6ebbbb.svg": "./static/media/singlePackage.9d6ebbbb.svg",
     "static/media/work-sans.css": "./static/media/worksans-semibold-webfont.3d45de00.woff2",
-    "vendors~main.3f678876.iframe.bundle.js.LICENSE.txt": "./vendors~main.3f678876.iframe.bundle.js.LICENSE.txt"
+    "vendors~main.fda279ed.iframe.bundle.js.LICENSE.txt": "./vendors~main.fda279ed.iframe.bundle.js.LICENSE.txt"
   },
   "entrypoints": [
     "runtime~main.83eddbae.iframe.bundle.js",
     "static/css/vendors~main.46fc10f7.chunk.css",
-    "vendors~main.3f678876.iframe.bundle.js",
+    "vendors~main.fda279ed.iframe.bundle.js",
     "static/css/main.581e6f1c.chunk.css",
-    "main.e42ea750.iframe.bundle.js"
+    "main.f4533eb4.iframe.bundle.js"
   ]
 }
