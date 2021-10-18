@@ -1,0 +1,41 @@
+/*
+<link rel="preload" href="%PUBLIC_URL%/fonts/WorkSans/worksans-bold-webfont.woff2" as="font" crossorigin="anonymous">
+<link rel="preload" href="%PUBLIC_URL%/fonts/WorkSans/worksans-medium-webfont.woff2" as="font" crossorigin="anonymous">
+<link rel="preload" href="%PUBLIC_URL%/fonts/WorkSans/worksans-regular-webfont.woff2" as="font" crossorigin="anonymous">
+<link rel="preload" href="%PUBLIC_URL%/fonts/WorkSans/worksans-semibold-webfont.woff2" as="font" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/fonts/WorkSans/font.css">
+*/
+
+@font-face {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: normal; /*400*/
+  font-display: swap;
+  src: url(../../static/media/worksans-regular-webfont.3d45de00.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../../static/media/worksans-medium-webfont.3d45de00.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../../static/media/worksans-semibold-webfont.3d45de00.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: bold; /*700*/
+  font-display: swap;
+  src: url(../../static/media/worksans-bold-webfont.3d45de00.woff2) format("woff2");
+}
+
+/*# sourceMappingURL=vendors~main.f7bc1b4f.chunk.css.map*/
