@@ -4,7 +4,7 @@
 
 * [`src/app`](https://github.com/InseeFrLab/onyxia-web/tree/main/src/app) contains the React application, it's the UI of the app.
   * All the import of src/lib should be made in [`src/app/libApi`](https://github.com/InseeFrLab/onyxia-web/tree/main/src/app/libApi).
-* [`src/lib`](https://github.com/InseeFrLab/onyxia-web/tree/main/src/lib) contains the 🧠 of the app.
+* [`src/lib`](https://github.com/InseeFrLab/onyxia-web/tree/main/src/lib) contains the 🧠  of the app.
   * Nothing in the `src/lib` directory should make any reference to React at all. A concept like react hooks for example is out of scope for the src/lib directory.
   * `src/lib` should never import anything from src/app, even type.
   * It should be possible for example to port onyxia-web to Vue.js or React Native without changing anything to the src/lib directory.
@@ -21,13 +21,13 @@ The src/js directory is legacy. It will be removed soon.
 * In [`src/lib/secondaryAdapter`](https://github.com/InseeFrLab/onyxia-web/tree/main/src/lib/secondaryAdapters) are the implementation of the ports. For each port we should have at least two implementations a dummy and a real one. It enabled the app to still run, be it in degraded mode if one piece of the infrastructure is missing. Say we don’t have a Vault server for example we should still be able to launch containers.
 * In [src/lib/useCase](https://github.com/InseeFrLab/onyxia-web/tree/main/src/lib/useCases) we expose APIs for the UI to consume.
 
-{% hint style="info" %}
-You might be surprised not to find a port for S3. It's because handled by the legacy code (src/js)
-{% endhint %}
-
 ## In practice
 
 Let's say we want to create a new page in onyxia-web where users can type in a repo name and get the current number of stars the repo has on GitHub.
+
+{% hint style="info" %}
+UPDATE: This video remain very useful but please not that the clean archi setup have been considerably improved in latest release. [A dedicated repo](https://github.com/garronej/clean-redux) have been created to explain it in detail.&#x20;
+{% endhint %}
 
 {% embed url="https://youtu.be/RDxAag3Iq0o" %}
 

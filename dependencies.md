@@ -4,7 +4,7 @@ description: Technologies at play in Onyxia-web
 
 # 🕸 Dependencies
 
-Modules marked by [🐔](https://apps.timwhitlock.info/emoji/tables/unicode#emoji-modal) are our own. It means that if you need a new feature it can be added in the better delays and your PR will be reviewed in priority over the one of the community.
+Modules marked by 🐔 are our own. It means that if you need a new feature it can be added in the better delays and your PR will be reviewed in priority over the one of the community.
 
 ## Typescript
 
@@ -14,13 +14,13 @@ We are fully committed on keeping everything type safe. If you are a seasoned de
 You can skip anything related to `class` we don't do OOP in the project.
 {% endhint %}
 
-### tsafe [🐔](https://apps.timwhitlock.info/emoji/tables/unicode#emoji-modal)
+### tsafe 🐔
 
 {% embed url="https://www.tsafe.dev" %}
 
 We also heavily rely on [tsafe](https://github.com/garronej/tsafe). It's a collection of utilities that help write cleaner TypeScript code. We like to think of it as "_The missing TypeScript builtins_".
 
-### TS-CI [🐔](https://apps.timwhitlock.info/emoji/tables/unicode#emoji-modal)
+### TS-CI 🐔
 
 {% embed url="https://github.com/garronej/ts-ci" %}
 
@@ -30,7 +30,7 @@ We try, whenever we see an opportunity for it, to publish as standalone NPM modu
 
 Anything contained in the [src/app](https://github.com/InseeFrLab/onyxia-web/tree/main/src/app) directory.
 
-### Onyxia-UI [🐔](https://apps.timwhitlock.info/emoji/tables/unicode#emoji-modal)
+### Onyxia-UI 🐔
 
 {% embed url="https://github.com/InseeFrLab/onyxia-ui" %}
 
@@ -91,7 +91,7 @@ We currently offers builtin support for [three color palettes](https://github.co
 
 The fonts are loaded in the [public/index.html](https://github.com/InseeFrLab/onyxia-web/blob/f6e2907e43eea825d39f350207705d564360eb23/public/index.html#L6-L115). It's important to keep it that way for Keycloakify.
 
-### tss-react [🐔](https://apps.timwhitlock.info/emoji/tables/unicode#emoji-modal)
+### tss-react 🐔
 
 {% embed url="https://github.com/garronej/tss-react" %}
 
@@ -100,7 +100,7 @@ The library we use for styling.
 Rules of thumbs when it comes to styling:
 
 * Every component should accept[ an optional `className`](https://github.com/InseeFrLab/onyxia-web/blob/f6e2907e43eea825d39f350207705d564360eb23/src/app/components/App/Footer.tsx#L9)prop it should always [overwrite the internal styles](https://github.com/InseeFrLab/onyxia-web/blob/f6e2907e43eea825d39f350207705d564360eb23/src/app/components/App/Footer.tsx#L55).
-* A component should not size or position itself. It should always be the responsibility of the parent component to do it. In other words, you should never have `height`, `width`, `top`, `left`, `right`, `bottom `or `margin `in [the root styles](https://github.com/InseeFrLab/onyxia-web/blob/f6e2907e43eea825d39f350207705d564360eb23/src/app/components/App/Footer.tsx#L16-L23) of your components.
+* A component should not size or position itself. It should always be the responsibility of the parent component to do it. In other words, you should never have `height`, `width`, `top`, `left`, `right`, `bottom` or `margin` in [the root styles](https://github.com/InseeFrLab/onyxia-web/blob/f6e2907e43eea825d39f350207705d564360eb23/src/app/components/App/Footer.tsx#L16-L23) of your components.
 * You should never have a color or a dimension hardcoded elsewhere than in [the theme configuration](https://github.com/InseeFrLab/onyxia-web/blob/main/src/app/theme.tsx). Use `theme.spacing()` ([ex1](https://github.com/InseeFrLab/onyxia-web/blob/f6e2907e43eea825d39f350207705d564360eb23/src/app/components/pages/MyServices/MyServicesCards/MyServicesCard/MyServicesCard.tsx#L24), [ex2](https://github.com/InseeFrLab/onyxia-web/blob/f6e2907e43eea825d39f350207705d564360eb23/src/app/components/pages/MyServices/MyServicesCards/MyServicesCard/MyServicesCard.tsx#L31), [ex3](https://github.com/InseeFrLab/onyxia-web/blob/95667d66cc6ee835ede8d9d6a9bca5299d11bc1a/src/app/components/pages/MyServices/MyServicesSavedConfigs/MyServicesSavedConfig/MyServicesSavedConfig.tsx#L30)) and [`theme.colors.useCases.xxx`](https://github.com/InseeFrLab/onyxia-web/blob/08addbc60c820b8306cf8b0ccbe4793bd2f85661/src/app/components/pages/MyServices/MyServicesSavedConfigs/MyServicesSavedConfig/MyServicesSavedConfigOptions.tsx#L23-L32).
 
 ### Storybook
@@ -137,7 +137,7 @@ We create a wrapper ([src/stories/getStory.tsx](https://github.com/InseeFrLab/on
 Setting up a new story
 {% endembed %}
 
-### react-envs [🐔](https://apps.timwhitlock.info/emoji/tables/unicode#emoji-modal)
+### react-envs 🐔
 
 {% embed url="https://github.com/garronej/react-envs" %}
 
@@ -201,7 +201,7 @@ As a result we always use [useConstCallback](https://github.com/garronej/powerho
 
 It is very handy to be able to get the height and the width of components dynamically. It prevents from having to hardcode dimension when we don’t need to. For that we use [`useDomRect`](https://github.com/garronej/powerhooks#usedomrect)\`\`
 
-### Keycloakify [🐔](https://apps.timwhitlock.info/emoji/tables/unicode#emoji-modal)
+### Keycloakify 🐔
 
 {% embed url="https://github.com/InseeFrLab/keycloakify" %}
 
@@ -255,9 +255,20 @@ Anything contained in the [src/lib](https://github.com/InseeFrLab/onyxia-web/tre
 
 {% embed url="https://redux-toolkit.js.org" %}
 
-It's toolset for redux. No need to dig too deep. Getting familiar with the core concept of redux should be more than enough to get you started.
+It's toolset for redux. No need to dig too deep. Getting familiar with the core concept of redux should be more than enough to get you started. Beyond that refer to the following library.
 
-### EVT [🐔](https://apps.timwhitlock.info/emoji/tables/unicode#emoji-modal)
+
+
+
+
+### clean-redux  🐔
+
+{% embed url="https://github.com/garronej/clean-redux" %}
+
+This repo aims to be a guide on how to implement Clean Architecture using [`@reduxjs/toolkit`](https://redux-toolkit.js.org).\
+The NPM library `clean-redux` is a set of utils that you will need to achieve perfect type inference.
+
+### EVT 🐔
 
 {% embed url="https://www.evt.land" %}
 
