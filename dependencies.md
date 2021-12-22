@@ -137,9 +137,9 @@ We create a wrapper ([src/stories/getStory.tsx](https://github.com/InseeFrLab/on
 Setting up a new story
 {% endembed %}
 
-### react-envs 🐔
+### cra-envs 🐔
 
-{% embed url="https://github.com/garronej/react-envs" %}
+{% embed url="https://github.com/garronej/cra-envs" %}
 
 We need to be able to do:
 
@@ -149,7 +149,7 @@ docker run --env OIDC_URL="https://auth.lab.sspcloud.fr/auth" InseeFrLab/onyxia-
 
 Then, somehow, access `OIDC_URL` in the code like `process.env["OIDC_URL"]`.
 
-In theory it shouldn't be possible, onyxia-web is an SPA, it is just static JS/CSS/HTML. If we want to bundle values in the code, we should have to recompile. But this is where [`react-envs`](https://github.com/garronej/react-envs) comes into play.
+In theory it shouldn't be possible, onyxia-web is an SPA, it is just static JS/CSS/HTML. If we want to bundle values in the code, we should have to recompile. But this is where [`cra-envs`](https://github.com/garronej/cra-envs) comes into play.
 
 It enables to run onyxia-web again a specific infrastructure while keeping the app docker image generic.
 
@@ -174,7 +174,7 @@ Checkout [the helm chart](https://github.com/InseeFrLab/paris-sspcloud/blob/812b
 * Then, in the code the variable can be accessed [like this](https://github.com/InseeFrLab/onyxia-web/blob/f6e2907e43eea825d39f350207705d564360eb23/src/app/libApi/LibProvider.tsx#L32).
 
 {% hint style="warning" %}
-Please try not to access the environment variable to liberally through out the code. In principle they should ony be accessed [here](https://github.com/InseeFrLab/onyxia-web/blob/main/src/app/libApi/LibProvider.tsx). We try to keep things [pure](https://en.wikipedia.org/wiki/Pure\_function) as much as possible.
+Please try not to access the environment variable to liberally through out the code. In principle they should only be accessed [here](https://github.com/InseeFrLab/onyxia-web/blob/main/src/app/libApi/LibProvider.tsx). We try to keep things [pure](https://en.wikipedia.org/wiki/Pure\_function) as much as possible.
 {% endhint %}
 
 {% embed url="https://youtu.be/JaX14cborxE" %}
@@ -256,10 +256,6 @@ Anything contained in the [src/lib](https://github.com/InseeFrLab/onyxia-web/tre
 {% embed url="https://redux-toolkit.js.org" %}
 
 It's toolset for redux. No need to dig too deep. Getting familiar with the core concept of redux should be more than enough to get you started. Beyond that refer to the following library.
-
-
-
-
 
 ### clean-redux  🐔
 
