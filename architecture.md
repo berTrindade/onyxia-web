@@ -82,3 +82,17 @@ If no `ORG_NAME` is provided by the administrator, the app should always show 99
 Currently users can save their GitHub Personal access token in their Onyxia account but not yet their GitLab token. Let's see how we would implement that.
 
 {% embed url="https://www.youtube.com/watch?v=WVFKCR1QfVk" %}
+
+## How to deal with project switching
+
+The easy action to take when the user selects another project is to simply reload the page (`windows.location.reload()`). We want to avoid doing this to enable what we call "_hot projet swiping_":&#x20;
+
+![The page is not reloaded when changing the project](https://user-images.githubusercontent.com/6702424/147413744-480235af-53cc-4b4d-a69a-7e9e73a79407.gif)
+
+To implement this behavior you have to leverage the evtAction middleware from clean-redux. It enabled to register functions to be run when certain actions are dispatched.
+
+{% hint style="info" %}
+Unlike the other video, the following one is voiced. Find the relevant code [here](https://github.com/InseeFrLab/onyxia-web/blob/61b4d660faebefacc9e963c506b707c04d57521f/src/core/usecases/runningService.ts#L316-L332).
+{% endhint %}
+
+{% embed url="https://youtu.be/TWDHBxceH0Q" %}
