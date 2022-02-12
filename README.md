@@ -13,7 +13,7 @@ git lfs install && git lfs pull
 yarn install
 #Setup the var envs to tell the app to connect to the sspcloud
 #Fill up with your own value to run the web app against your own infra.
-cp .env.local.sample .env.local
+cp .env.local.sample-insee .env.local
 
 # To stat the app locally
 yarn start 
