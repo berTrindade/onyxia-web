@@ -28,7 +28,7 @@ We try, whenever we see an opportunity for it, to publish as standalone NPM modu
 
 ## For working on what the end user 👁
 
-Anything contained in the [src/app](https://github.com/InseeFrLab/onyxia-web/tree/main/src/app) directory.
+Anything contained in the [src/ui](https://github.com/InseeFrLab/onyxia-web/tree/main/src/ui) directory.
 
 ### Onyxia-UI 🐔
 
@@ -83,9 +83,9 @@ Now you can make changes in `~/github/onyxia-ui/src`/ and see the changes direct
 
 We currently offers builtin support for [three color palettes](https://github.com/InseeFrLab/onyxia-web/blob/f6e2907e43eea825d39f350207705d564360eb23/src/app/theme.tsx#L84-L93):
 
-* France: [datalab.sspcloud.fr?**THEME\_ID=france**](https://datalab.sspcloud.fr/?THEME\_ID=france)****
-* Ultraviolet: [datalab.sspcloud.fr?**THEME\_ID=ultraviolet**](https://datalab.sspcloud.fr/?THEME\_ID=ultraviolet)****
-* Onyxia (default): [datalab.sspcloud.fr?**THEME\_ID=onyxia**](https://datalab.sspcloud.fr)****
+* France: [datalab.sspcloud.fr?**THEME\_ID=france**](https://datalab.sspcloud.fr/?THEME\_ID=france)\*\*\*\*
+* Ultraviolet: [datalab.sspcloud.fr?**THEME\_ID=ultraviolet**](https://datalab.sspcloud.fr/?THEME\_ID=ultraviolet)\*\*\*\*
+* Onyxia (default): [datalab.sspcloud.fr?**THEME\_ID=onyxia**](https://datalab.sspcloud.fr)\*\*\*\*
 
 #### Fonts
 
@@ -257,7 +257,7 @@ Anything contained in the [src/lib](https://github.com/InseeFrLab/onyxia-web/tre
 
 It's toolset for redux. No need to dig too deep. Getting familiar with the core concept of redux should be more than enough to get you started. Beyond that refer to the following library.
 
-### clean-redux  🐔
+### clean-redux 🐔
 
 {% embed url="https://github.com/garronej/clean-redux" %}
 
