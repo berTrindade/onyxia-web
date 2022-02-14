@@ -111,7 +111,7 @@ It enables us to test the graphical components in isolation.
 
 Example:
 
-* Tested component:[ src/app/components/App/Footer.tsx](https://github.com/InseeFrLab/onyxia-web/blob/main/src/app/components/App/Footer.tsx)
+* Tested component: [src/app/components/App/Footer.tsx](https://github.com/InseeFrLab/onyxia-web/blob/main/src/ui/components/App/Footer.tsx)
 * Story for tested component: [src/stories/App/Footer.stories.tsx](https://github.com/InseeFrLab/onyxia-web/blob/main/src/stories/App/Footer.stories.tsx)
 * Live result: [storybook.onyxia.dev/?path=/story/app-footer--vue-1](https://storybook.onyxia.dev/?path=/story/app-footer--vue-1)
 
